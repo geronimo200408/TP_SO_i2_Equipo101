@@ -1,1 +1,3 @@
+a_ Tengo que agregar el repositorio original como upstream y hacer fetch y merge
+b_No directamente. Un fork no tiene acceso a otros forks, solo al repositorio original.
 c_ Tampoco directamente. Igual que en el caso anterior, tendría que agregar el fork de ALFA como remoto y hacer merge o rebase. No es lo usual
