@@ -1,1 +1,2 @@
 c_ Tampoco directamente. Igual que en el caso anterior, tendría que agregar el fork de ALFA como remoto y hacer merge o rebase. No es lo usual
+d_ No necesariamente. Git intenta hacer un merge y mantener todos los cambios. Sin embargo, si hay conflictos entre tus cambios y los del upstream, tendrás que resolverlos manualmente. Si lo hacés con cuidado, tus datos no se pierden
