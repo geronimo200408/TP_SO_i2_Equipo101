@@ -1,4 +1,10 @@
-a_ Tengo que agregar el repositorio original como upstream y hacer fetch y merge
-b_No directamente. Un fork no tiene acceso a otros forks, solo al repositorio original.
 c_ Tampoco directamente. Igual que en el caso anterior, tendría que agregar el fork de ALFA como remoto y hacer merge o rebase. No es lo usual
-d_ No necesariamente. Git intenta hacer un merge y mantener todos los cambios. Sin embargo, si hay conflictos entre tus cambios y los del upstream, tendrás que resolverlos manualmente. Si lo hacés con cuidado, tus datos no se pierden
+e_ clonar el repositorio al cual le hacemos fork con git clone https://github.com/geronimo200408/TP_SO_i2_Equipo101/edit/main/respuesta_I2_Equipo101
+   realizamos cambios al archivo fork.txt
+   git commit -m "agregar cambios" 
+   git push
+   para actualizar los cambios realizados por el autor del repositorio original git remote add upstream link del repositorio
+   git fetch upstream para traer los cambios original
+   git checkout main
+   git merge upstream/main para fusioar los cambios del repositorio y el repositorio local 
+   git push origin main para subir los nuevos cambios
